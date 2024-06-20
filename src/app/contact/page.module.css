@@ -1,0 +1,204 @@
+
+.hbg{
+	background-image: url('https://img.freepik.com/premium-photo/you-will-succeed-because-youve-worked-hard-shot-young-businesswoman-talking-cellphone-office-night_590464-37157.jpg?w=900');
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-clip: content-box;
+}
+
+.herotext{
+	text-align: center;
+	justify-content: center;
+	align-items: center;
+	font-family: sans-serif;
+	padding-top: 2rem;
+	color: white;
+	font-size: 30px;
+	line-height: 4.3rem;
+	padding-left: 30rem;
+  }
+  
+.contactform {
+	padding-right: 35px;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+}
+
+.contactform h5 {
+	font-size: 16px;
+	font-family: "Lato", sans-serif;
+}
+
+.contactform h5 span {
+	color: #16d0c5;
+}
+
+.contactform .formgroup {
+	position: relative;
+	margin-bottom: 20px;
+}
+
+.contactform .formgroup span {
+	position: absolute;
+	right: 0;
+	top: 10px;
+	font-size: 16px;
+	color: #7bc063;
+	opacity: 0;
+	-webkit-transition: all 0.3s;
+	-o-transition: all 0.3s;
+	transition: all 0.3s;
+}
+
+.contactform .formgroup span.active {
+	opacity: 1;
+}
+
+.contactform .checkform {
+	padding-right: 0;
+}
+
+.contactform input,
+.contactform textarea {
+	width: 100%;
+	height: 50px;
+	border: none;
+	border-bottom: 1px solid #ebebeb;
+	font-size: 16px;
+	padding-bottom: 10px;
+	color: #20509e;
+}
+
+.contactform input:focus,
+.contactform textarea:focus {
+	border-color: #20509e;
+}
+
+.contactform textarea {
+	padding-bottom: 10px;
+	padding-top: 10px;
+	height: 115px;
+}
+
+
+.contactform ::-webkit-input-placeholder {
+	color: #acb9cc;
+}
+
+.contactform :-ms-input-placeholder {
+	color: #acb9cc;
+}
+
+.contactform ::-ms-input-placeholder {
+	color: #acb9cc;
+}
+
+.contactform ::placeholder {
+	color: #acb9cc;
+}
+
+  
+  .formgroup {
+	flex-basis: 100%;
+	padding-right: 15px;
+	padding-left: 15px;
+	margin-bottom: 1rem;
+  }
+  
+  @media (max-width: 768px) {
+	.contactform .formgroup {
+		flex: 1 0 0;
+		padding-left: 0;
+	    flex-basis: 50%;
+	}
+	.contactform .formgroup:nth-child(2n) {
+	  margin-right: 0;
+	}
+	.contactform .formgroup:nth-child(2n+1) {
+	  margin-left: 0;
+	}
+
+	.herotext{
+		padding-left: 0;
+	}
+  }
+
+.sitebtnsbgradientsmt4{
+	position: relative;
+	display: inline-block;
+	padding: 15px 30px;
+	font-size: 16px;
+	font-weight: 500;
+	line-height: 16px;
+	border-radius: 50px;
+	font-family: "Futura", sans-serif;
+	min-width: 170px;
+	text-align: center;
+	border: 2px solid #7ad4cc;
+	cursor: pointer;
+	color:white;
+}
+
+.sitebtnsbgradientsmt4{
+	color: white;
+}
+
+.sitebtnsbgradientsmt4{
+	border-radius: 2px;
+}
+
+/* .sitebtnsbgradientsmt4{
+	display: block;
+	width: 100%;
+	border-radius: 0;
+} */
+
+.sitebtnsbgradientsmt4{
+	/* padding: 17px 32px; */
+	border: none;
+	color: white;
+	margin-bottom: 10px;
+}
+
+.sitebtnsbgradientsmt4 {
+	color: white;
+	z-index: 1;
+}
+
+.sitebtnsbgradientsmt4:after {
+	position: absolute;
+	content: '';
+	width: calc(100% - 4px);
+	height: calc(100% - 4px);
+	background: black;
+	top: 2px;
+	left: 2px;
+	z-index: -1;
+}
+.sitebtnsbgradientsmt4:hover {
+	transform: translateY(-10px);
+
+	/* transform: scale(1.1) */
+}
+
+
+
+
+.sitebtnsbgradientsmt4 button{
+	background-color: red;
+}
+
+/* @media (hover) and (pointer: fine) {
+	.sitebtnsbgradientsmt4:not(:disabled):not([disabled]):focus::after,
+	.sitebtnsbgradientsmt4:not(:disabled):not([disabled]).active::after {
+		background: rgba(255,255,255,.15);
+	}
+}
+
+
+.sitebtnsbgradientsmt4:active,
+.sitebtnsbgradientsmt4:focus {
+	box-shadow: inset 0 1px 3px rgba(255,255,255,.6),inset 0 -1px  0 rgba(255,255,255,.4);
+} */

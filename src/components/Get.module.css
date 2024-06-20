@@ -1,0 +1,78 @@
+/* GetStartedPage.module.css */
+
+.getStartedPage {
+    text-align: center;
+  }
+  
+  .swiperContainer {
+    margin-top: 10px;
+    border: 1px solid gray;
+  }
+  
+  .slide {
+    background-color: transparent;
+    border-radius: 5px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    transition: transform 0.3s ease;
+  }
+
+
+  
+  .slide h2 {
+    font-size: 60px;
+    margin-bottom: 10px;
+    text-align: left;
+    text-transform: capitalize;
+
+  }
+ .slide span{
+    color: rgb(143, 50, 50);
+    text-decoration: underline;
+  }
+  .text{
+    font-family: sans-serif;
+    color: black;
+  }
+
+  .slide2{
+    padding: 20px;
+    align-items: center;
+    text-align: center;
+  }
+
+  .slide2 button{
+    border-radius: 8px;
+    height: 40px;
+    width: 100%;
+    max-width: 200px;
+    background-color: white;
+    color: black;
+    outline: none;
+    cursor: pointer;
+    box-shadow: 0px  8px 15px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease;
+    margin-top: 20px;
+  }
+
+  .slide2 button a{
+    color: rgb(23, 22, 22);
+  }
+
+  @media (max-width: 768px){
+    .slide h2{
+      font-size: 20px;
+    }
+    .slide{
+      padding: 20px;
+    }
+    .slide img{
+      display: block;
+      margin: auto;
+      width: 200px;
+      height: 180px;
+    }
+  }
+
+  

@@ -1,0 +1,35 @@
+.abg{
+    background-image: url('https://img.freepik.com/free-photo/team-business-people-stacking-hands_53876-119699.jpg?t=st=1711493623~exp=1711497223~hmac=8cb628a2b0e7178d6ad4284430c1cc858494b9752b8efd441039cb59bf6fc704&w=740');
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+
+.about{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+}
+.content{
+    text-align: center;
+    align-items: center;
+    margin: 20px;
+    font-family:'Roboto', sans-serif;
+    
+}
+.content h2{
+    color:#576c99;
+    padding:10px;
+    border-radius:8px;
+    width:fit-content;
+    margin:auto;
+    margin-bottom:30px;
+}
+
+.content p{
+    text-align: justify;
+    font-size: 15px;
+    line-height: 2rem;
+
+}

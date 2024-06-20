@@ -1,0 +1,87 @@
+.fbg{
+  background-image: url('https://img.freepik.com/free-photo/stylish-scandinavian-living-room-with-design-mint-sofa-furnitures-mock-up-poster-map-plants-eleg_1258-152143.jpg?t=st=1712804048~exp=1712807648~hmac=4cbc711ac3a1984b8663d59b1d4936f1e69b0cae3610d736fd7c17018ad71cee&w=900');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.productlist {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.product {
+  width: 250px;
+  margin: 20px;
+  padding: 15px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  text-align: center;
+}
+
+.productimage {
+  width: 60%;
+  height: auto;
+  margin-bottom: 10px;
+  border-radius: 5px;
+}
+
+.product h3 {
+  margin-top: 0;
+}
+
+.productbtn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.4em;
+  color: white;
+}
+
+.cartbtn button{
+    gap: 10px;
+    background-color: #4caf50;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+ 
+.qbtn {
+  display: flex;
+}
+
+.qbtn span{
+    color: black;
+    margin: 5px 5px;
+    font-size: 1rem;
+}
+
+.qbtn button {
+  background-color: #808080;
+  color: white;
+  width: 30px;
+  height: 30px;
+  border: none;
+  border-radius: 5px;
+  margin: 0 5px;
+  cursor: pointer;
+  /* text-align: center;
+    justify-content: center;
+    align-items: center;
+    padding:  16px;
+    margin-right: 8px;
+    width: 1rem;
+    height: 1rem;
+    background-color: grey;
+    border-radius: 0;
+    border: none;
+    outline: none;
+    color: white;
+     */
+}
+
+.product button:hover {
+  background-color: #2c512e;
+}
