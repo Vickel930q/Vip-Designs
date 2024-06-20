@@ -15,7 +15,7 @@ import "aos/dist/aos.css";
 import Link from "next/link";
 AOS.init();
 
-SwiperCore.use([Autoplay]);
+// SwiperCore.use([Autoplay]);
 function GetStartedPage() {
     const [swiper, setSwiper] = useState(null);
 

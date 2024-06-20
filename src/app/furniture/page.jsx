@@ -96,7 +96,7 @@ const FurniturePage = ({ addToCart }) => {
                 </div>
             </div>
 
-            <GetStartedPage/>
+            {/* <GetStartedPage/> */}
         
             <div className={styles.productlist}>
                 {furnitureData.map((item) => (
