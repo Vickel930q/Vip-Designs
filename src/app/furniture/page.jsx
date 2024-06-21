@@ -2,16 +2,14 @@
 import Footer from '@/components/Footer'
 import Header from '@/components/Header'
 import React, { useState } from 'react';
-import Link from 'next/link';
 import styles from './page.module.css'
-import PropTypes from 'prop-types';
 import Image from 'next/image';
-import App from '@/components/App';
-import ProductList from '@/components/ProductList';
-import Cart from '@/components/Cartpage';
-import Product from '@/components/Product';
-import GetStartedPage from '@/components/Get';
-import Related from '@/components/related/Related';
+// import App from '@/components/App';
+// import ProductList from '@/components/ProductList';
+// import Cart from '@/components/Cartpage';
+// import Product from '@/components/Product';
+// import GetStartedPage from '@/components/Get';
+// import Related from '@/components/related/Related';
 
 // Furniture data
 
@@ -26,14 +24,12 @@ const furnitureData = [
     { id: 5, name: 'Coffee Table', price: 399, image: 'https://img.freepik.com/premium-photo/armchair-isolated-white-background-3d-rendering_672982-2009.jpg?w=740' },
 ];
 
-const FurniturePage = ({ addToCart }) => {
+const FurniturePage = () => {
     const [cart, setCart] = useState([]);
     const [quantities, setQuantities] = useState({});
     const [selectedProduct, setSelectedProduct] = useState(null);
 
-    FurniturePage.propTypes = {
-        addToCart: PropTypes.func.isRequired,
-    };
+
 
    
       
@@ -74,9 +70,7 @@ const FurniturePage = ({ addToCart }) => {
             });
         }
     };
-    FurniturePage.propTypes = {
-        addToCart: PropTypes.func.isRequired // Define addToCart as a required function prop
-    };
+ 
 
     
     
@@ -106,7 +100,7 @@ const FurniturePage = ({ addToCart }) => {
                         <p>Price: ${item.price}</p>
                         <div className={styles.productbtn}>
                             <div className={styles.cartbtn}>
-                                <button onClick={() => handleAddToCart(item)} addToCart={addToCart}>Add to Cart</button>
+                                <button onClick={() => handleAddToCart(item)}>Add to Cart</button>
                                 {/* <button onClick={() => showProductDetails(item.id)}>More Info</button> */}
                             </div>
                             <div className={styles.qbtn}>
@@ -131,7 +125,7 @@ const FurniturePage = ({ addToCart }) => {
                 </div>
             )}
          {/* <App/> */}
-         <Related/>
+         {/* <Related/> */}
          <Footer />
         </div>
     );

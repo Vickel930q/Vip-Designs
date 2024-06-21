@@ -1,7 +1,6 @@
 "use client";
 import React, { useState } from "react";
 import { MdEmail } from "react-icons/md";
-import { IoPersonSharp } from "react-icons/io5";
 import { RiLockPasswordFill } from "react-icons/ri";
 import styles from "./page.module.css"; // Import the CSS module
 import Image from "next/image";
@@ -10,7 +9,7 @@ import { FaGoogle } from "react-icons/fa";
 import { FaFacebook } from "react-icons/fa";
 import { BsInstagram } from "react-icons/bs";
 import { FaXTwitter } from "react-icons/fa6";
-import WarningMessage from "react";
+
 
 
 function SignUpPage() {
